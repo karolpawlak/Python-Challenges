@@ -15,7 +15,7 @@
 import re
 
 value = []
-items=[x for x in raw_input().split(',')]
+items = [x for x in raw_input().split(',')]
 
 for p in items:
   if len(p)<6 or len(p)>12:
